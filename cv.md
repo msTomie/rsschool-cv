@@ -7,7 +7,7 @@
 - **GitHub :** https://github.com/msTomie
 - **Telegram :** https://t.me/katerina_tomashenko
 - **LinkedIn :** https://www.linkedin.com/in/katerina-tomashenko
-- **Discord :** @msTomie
+  [Discord] (@msTomie)
 
 ## Profile
 
@@ -46,13 +46,13 @@ function digitalRoot(n) {
 
 ## Education
 
-**Belarusian National Technical University**
+**Belarusian National Technical University**<br>
 _Civil Engineering_ | _2017 – 2021_
 
-**Courses**
+## Courses
 
-- **TeachMeSkills**<br>
-  _Front End developer_ | _2022 – 2023_
+**TeachMeSkills**<br>
+_Front End developer_ | _2022 – 2023_
 
 ## Languages
 
