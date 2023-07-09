@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+/* ______________________HEADER____________________  */
+.header {
+  background-color: rgba(225, 225, 225, 0.234);
+  height: 80px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 80px;
+  flex-wrap: wrap;
+}
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000c2;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #a346ff;
+}
