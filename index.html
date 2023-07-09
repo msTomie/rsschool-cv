@@ -26,5 +26,111 @@
         </nav>
       </div>
     </header>
+    <!-- _________________________MAIN___________________________ -->
+    <main class="main">
+      <div class="container">
+        <div class="container-flex top center">
+          <img src="./img/avatar.jpg" alt="avatar" class="avatar" />
+
+          <section class="contacts">
+            <h2 class="title">Contacts:</h2>
+            <ul>
+              <li class="list-item">Minsk, Belarus</li>
+              <li class="list-item">
+                E-mail:
+                <a href="tomashenko.katerina@gmail.com" class="link"
+                  >tomashenko.katerina@gmail.com</a
+                >
+              </li>
+              <li class="list-item">
+                Telegram:
+                <a href="https://t.me/katerina_tomashenko" class="link"
+                  >https://t.me/katerina_tomashenko</a
+                >
+              </li>
+              <li class="list-item">
+                GitHub:
+                <a href="https://github.com/msTomie" class="link"
+                  >https://github.com/msTomie</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+        <section class="profile">
+          <div class="profile padd">
+            <h1 class="profile-title">Katerina Tomasheko</h1>
+            <h2 class="title top">Profile:</h2>
+            <p>
+              The IT sphere is developing rapidly and I want to develop with it.
+              I made my choice in favor of Front-end development, as I like to
+              see the final version of my work. <br />
+              At the moment I am learning English, as well as developing the
+              skill of solving problems on Codewars. In my free time, I like
+              snowboarding, water and hiking with my friends
+            </p>
+          </div>
+        </section>
+        <div class="container-flex line top">
+          <section>
+            <h2 class="title">Hard Skills:</h2>
+            <ul>
+              <li class="list-item list-none">HTML, CSS(SCSS), BEM</li>
+              <li class="list-item list-none">HJavaScript, React.js, Redux</li>
+              <li class="list-item list-none">TypeScript, API, JSON, Axios</li>
+              <li class="list-item list-none">Git</li>
+              <li class="list-item list-none">Figma, Bootstrap, DevTools</li>
+              <li class="list-item list-none">FlexBox, Grid</li>
+              <li class="list-item list-none">CSS basic</li>
+            </ul>
+          </section>
+          <section>
+            <h2 class="title">Languages:</h2>
+            <ul>
+              <li class="list-item list-none">Russian (C2)</li>
+              <li class="list-item list-none">English (A2)</li>
+            </ul>
+          </section>
+          <section>
+            <h2 class="title">Courses:</h2>
+            <h3 class="education">TeachMeSkills</h3>
+            <p>Front End developer | 2022 – 2023</p>
+            <br />
+          </section>
+            <section>
+            <h2 class="title">Education:</h2>
+            <h3 class="education">Belarusian National Technical University</h3>
+            <p>Civil Engineering | 2017 – 2021</p>
+          </section>
+        </div>
+        <section class="experience top">
+          <div class="padd ">
+            <h2 class="title ">Professional Experience:</h2>
+            <div>Engineer, RUE “Belnipienergoprom” | 2021 – 2023</div>
+            <h3 class="top">Responsibilities:</h3>
+            <ul>
+              <li class="list-item list-none">development of drawings of the KM cipher, ensuring compliance with the TOR.</li>
+              <li class="list-item list-none">execution of technical calculations according to the RKD (working design documentation).</li>
+              <li class="list-item list-none">interaction with production and contracting organizations, solving issues arising with the release of products.</li>
+            </ul>
+          </div>
+        </section>   
+        <section class="padd">
+          <h2 id="projects" class="title">Projects:</h2>
+          <a href="https://mstomie.github.io/rsschool-cv/cv" class="link">CV#1. Markdown & Git</a>
+        </section>
+        <section class="padd">
+          <h2 class="title">Sample code with Codewars:</h2>
+          <pre>
+            <code> 
+function digitalRoot(n) {
+  return n.toString().length === 1? n :
+    digitalRoot( n.toString().split('').reduce((acc, item)=>acc+ +item ,0))
+}
+            </code>
+          </pre>
+        </section>
+      </div>
+    </main>
   </body>
 </html>

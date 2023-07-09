@@ -31,3 +31,59 @@ body {
 .nav-link:hover {
   color: #a346ff;
 }
+/* ______________________MAIN_______________________  */
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  flex-wrap: wrap;
+}
+.top {
+  padding-top: 30px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.main .avatar {
+  border-radius: 100%;
+  width: 150px;
+}
+.list-item {
+  list-style: none;
+  padding-top: 15px;
+  color: #000;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+  color: #00000090;
+}
+.profile-title {
+  font-size: 44px;
+  font-weight: 400;
+}
+.profile p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+.padd {
+  padding: 20px 80px;
+}
+.line {
+  align-items: baseline;
+}
+.education {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.list-none {
+  list-style: inside;
+}
+.experience h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
