@@ -87,3 +87,14 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+/* ______________________FOOTER_______________________  */
+.footer {
+  background-color: rgba(225, 225, 225, 0.234);
+  height: 80px;
+}
+.logo {
+  height: 30px;
+}
+.copy {
+  font-size: 18px;
+}
